@@ -12,7 +12,7 @@ export default props => (
       sx={{
         display: "grid",
         gridTemplateColumns: "repeat(2, 200px);",
-        gridGap: "1rem",
+        //gridGap: "0.5rem",
         justifyItems: "center",
         alignItems: "start",
         justifyContent: "space-evenly",
