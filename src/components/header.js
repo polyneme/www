@@ -1,42 +1,88 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import logo from "../images/polyneme-logo-darkbg.png"
 
-const Header = ({ siteTitle }) => (
+export default props => (
   <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+    sx={{
+      py: 4,
+      variant: "styles.header",
     }}
   >
     <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        mb: 3,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
+      <Link to="/" title="Home">
+        <img
+          sx={{
+            width: "100%",
+            maxWidth: "logo",
+          }}
+          alt="Polyneme LLC Logo"
+          src={logo}
+        />
+        <span
+          sx={{
+            position: "absolute",
+            width: 1,
+            height: 1,
+            overflow: "hidden",
+            top: -9999,
           }}
         >
-          {siteTitle}
-        </Link>
-      </h1>
+          Home
+        </span>
+      </Link>
     </div>
+    {/*
+    <div
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <Link
+        to="/work"
+        sx={{
+          variant: "styles.navlink",
+          p: 2,
+        }}
+      >
+        Work
+      </Link>
+      <Link
+        to="/blog"
+        sx={{
+          variant: "styles.navlink",
+          p: 2,
+        }}
+      >
+        Blog
+      </Link>
+      <Link
+        to="/about"
+        sx={{
+          variant: "styles.navlink",
+          p: 2,
+        }}
+      >
+        About
+      </Link>
+      <Link
+        to="/contact"
+        sx={{
+          variant: "styles.navlink",
+          p: 2,
+        }}
+      >
+        Contact
+      </Link>
+    </div>
+      */}
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
