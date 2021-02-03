@@ -8,7 +8,9 @@ import BookConsultation from "../components/book"
 
 import photo_donny from "../images/donny.png"
 
-const P = ({ children }) => <p sx={{ maxWidth: "640px" }}>{children}</p>
+const P = ({ children }) => (
+  <p sx={{ px: "20px", maxWidth: "640px" }}>{children}</p>
+)
 
 const AboutPage = () => (
   <Layout>
