@@ -39,6 +39,16 @@ export default {
       bg: "highlight",
     },
   },
+  images: {
+    avatar: {
+      width: 48,
+      height: 48,
+      borderRadius: 99999,
+    },
+    about: {
+      width: 300,
+    },
+  },
 }
 
 /*

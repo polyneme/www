@@ -41,7 +41,9 @@ export default props => (
         </p>
       </GridItem>
       <GridItem>
-        <h4 sx={{ mb: 0 }}>Contact Us</h4>
+        <h4 id="contact" sx={{ mb: 0 }}>
+          Contact Us
+        </h4>
         <p>
           82 Nassau St # 60280 <br />
           New York, NY 10038 <br />

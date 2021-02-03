@@ -39,7 +39,6 @@ export default props => (
         </span>
       </Link>
     </div>
-    {/*
     <div
       sx={{
         display: "flex",
@@ -47,22 +46,31 @@ export default props => (
       }}
     >
       <Link
-        to="/work"
+        to="/"
         sx={{
           variant: "styles.navlink",
           p: 2,
         }}
       >
-        Work
+        Home
       </Link>
       <Link
-        to="/blog"
+        to="/services"
         sx={{
           variant: "styles.navlink",
           p: 2,
         }}
       >
-        Blog
+        Services
+      </Link>
+      <Link
+        to="/testimonials"
+        sx={{
+          variant: "styles.navlink",
+          p: 2,
+        }}
+      >
+        Hearsay
       </Link>
       <Link
         to="/about"
@@ -73,16 +81,17 @@ export default props => (
       >
         About
       </Link>
-      <Link
-        to="/contact"
+      {/*
+      <a
+        href="#contact"
         sx={{
           variant: "styles.navlink",
           p: 2,
         }}
       >
         Contact
-      </Link>
-    </div>
+      </a>
       */}
+    </div>
   </header>
 )

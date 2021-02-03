@@ -1,8 +1,10 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import { Heading, Box, Button, Container, Grid } from "theme-ui"
+import { Heading, Box, Grid } from "theme-ui"
 import SEO from "../components/seo"
+
+import BookConsultation from "../components/book"
 
 const QBox = ({ children }) => (
   <Box
@@ -16,14 +18,6 @@ const QBox = ({ children }) => (
   >
     {children}
   </Box>
-)
-
-const BookConsultation = () => (
-  <Container sx={{ width: "320px", mx: "auto" }}>
-    <a href="https://meet.polyneme.xyz/15-min-free">
-      <Button>Book a Free 15-minute Consultation</Button>
-    </a>
-  </Container>
 )
 
 const IndexPage = () => (
