@@ -1,6 +1,12 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 
+const GridItem = ({ children }) => (
+  <div sx={{ display: "flex", flexDirection: "column", textAlign: "center" }}>
+    {children}
+  </div>
+)
+
 export default props => (
   <footer
     sx={{
@@ -11,18 +17,20 @@ export default props => (
     <div
       sx={{
         display: "grid",
-        gridTemplateColumns: "repeat(2, 200px);",
+        gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr));",
         //gridGap: "0.5rem",
+        gap: "50px",
         justifyItems: "center",
         alignItems: "start",
         justifyContent: "space-around",
-        px: 2,
+        //px: 2,
+        mx: "5em",
         pt: 4,
         pb: 1,
       }}
     >
-      <div>
-        <h4>U.S. Federal Contract Info</h4>
+      <GridItem>
+        <h4 sx={{ mb: 0 }}>U.S. Federal Contract Info</h4>
         <p>
           D‑U‑N‑S Number: 017109707
           <br />
@@ -31,9 +39,9 @@ export default props => (
           NAICS Code: 541512
           <br />
         </p>
-      </div>
-      <div>
-        <h4>Contact Us</h4>
+      </GridItem>
+      <GridItem>
+        <h4 sx={{ mb: 0 }}>Contact Us</h4>
         <p>
           82 Nassau St # 60280 <br />
           New York, NY 10038 <br />
@@ -44,7 +52,7 @@ export default props => (
             info@polyneme.xyz
           </a>
         </p>
-      </div>
+      </GridItem>
     </div>
     <div
       sx={{
