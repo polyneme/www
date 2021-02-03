@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import { Heading, Box, Button, Container, Grid } from "theme-ui"
+import SEO from "../components/seo"
 
 const QBox = ({ children }) => (
   <Box
@@ -17,13 +18,23 @@ const QBox = ({ children }) => (
   </Box>
 )
 
+const BookConsultation = () => (
+  <Container sx={{ width: "320px", mx: "auto" }}>
+    <a href="https://meet.polyneme.xyz/15-min-free">
+      <Button>Book a Free 15-minute Consultation</Button>
+    </a>
+  </Container>
+)
+
 const IndexPage = () => (
   <Layout>
+    <SEO title="Home" />
     <Heading
       sx={{
         maxWidth: "512px",
         width: "90%",
         mx: "auto",
+        textAlign: "center",
       }}
     >
       Trouble with scientific data collaboration?
@@ -32,17 +43,13 @@ const IndexPage = () => (
       sx={{
         py: 4,
         mx: "auto",
-        maxWidth: "65%",
+        maxWidth: "512px",
+        textAlign: "center",
       }}
     >
-      At Polyneme LLC, we amplify the capacity of researchers to perform
-      data-intensive science together.
+      We help researchers do data-intensive science together.
     </Box>
-    <Container sx={{ width: 300, mx: "auto" }}>
-      <a href="https://meet.polyneme.xyz/15-min-free">
-        <Button>Book a Free 15-minute Consultation</Button>
-      </a>
-    </Container>
+    <BookConsultation />
     <Grid
       sx={{
         mt: 4,
@@ -66,11 +73,7 @@ const IndexPage = () => (
         enablement, or do you wait weeks to get access? Can you automate pulling
         the information down from their system into your system?
       </QBox>
-      <Container sx={{ width: 300, mx: "auto" }}>
-        <a href="https://meet.polyneme.xyz/15-min-free">
-          <Button>Book a Free 15-minute Consultation</Button>
-        </a>
-      </Container>
+      <BookConsultation />
       <QBox>
         You have sensitive unpublished work outside this collaboration. What are
         your security controls? How do you segregate information? Can you
@@ -86,11 +89,7 @@ const IndexPage = () => (
         both sides so that you can actually make the work happen and the data
         flow?
       </QBox>
-      <Container sx={{ width: 300, mx: "auto" }}>
-        <a href="https://meet.polyneme.xyz/15-min-free">
-          <Button>Book a Free 15-minute Consultation</Button>
-        </a>
-      </Container>
+      <BookConsultation />
       <QBox>
         Every collaboration ends. When all is said and done, how do you get the
         information back out again? What's your back-out or decommissioning
@@ -104,11 +103,7 @@ const IndexPage = () => (
         and enrich the workflows of individuals with smart tools so that they
         see the value, too?
       </QBox>
-      <Container sx={{ width: 300, mx: "auto" }}>
-        <a href="https://meet.polyneme.xyz/15-min-free">
-          <Button>Book a Free 15-minute Consultation</Button>
-        </a>
-      </Container>
+      <BookConsultation />
     </Grid>
   </Layout>
 )

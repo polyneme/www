@@ -15,7 +15,7 @@ export default props => (
         //gridGap: "0.5rem",
         justifyItems: "center",
         alignItems: "start",
-        justifyContent: "space-evenly",
+        justifyContent: "space-around",
         px: 2,
         pt: 4,
         pb: 1,

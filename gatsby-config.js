@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Polyneme LLC`,
+    description: `At Polyneme LLC, we amplify the capacity of researchers to perform data-intensive science together.`,
+    author: `@donnywinston`,
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
