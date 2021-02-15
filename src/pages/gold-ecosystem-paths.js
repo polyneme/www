@@ -22,6 +22,9 @@ const sum = (accu, next) => accu + next
 const max = (accu, next) => Math.max(accu, next)
 
 const search = s => {
+  if (s === "") {
+    return gold_paths_lcased.map(({ id }) => ({ id, score: 0 }))
+  }
   const words = s.split(/\s+/).map(w => w.toLowerCase())
   const regexps = words.map(w => new RegExp(w))
   return gold_paths_lcased.map(({ id, path }) => {
@@ -108,9 +111,20 @@ const GOLDEcosystemPathsPage = () => {
         sx={{ mb: "2em" }}
       />
       <ul>
-        {_.sortBy(state.context.scores, [p => -p.score]).map(({ id }) => {
-          return <li key={id}>{_.join(gold_paths_by_id[id], " / ")}</li>
-        })}
+        {_.sortBy(state.context.scores, [p => -p.score]).map(
+          ({ id, score }) => {
+            return (
+              <li
+                sx={{
+                  color: `${score === 0 ? "gray" : "text"}`,
+                }}
+                key={id}
+              >
+                {_.join(gold_paths_by_id[id], " / ")}
+              </li>
+            )
+          }
+        )}
       </ul>
       {/* <ul>
         {gold_paths.map(({ id, path }) => {
