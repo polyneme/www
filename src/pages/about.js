@@ -79,6 +79,14 @@ const AboutPage = () => (
         <a sx={{ color: "text" }} href="mailto:donny@polyneme.xyz">
           donny@polyneme.xyz
         </a>
+        . He also posts to his{" "}
+        <a sx={{ color: "text" }} href="https://donnywinston.com/">
+          blog
+        </a>{" "}
+        and{" "}
+        <a sx={{ color: "text" }} href="https://buttondown.email/donny">
+          email list
+        </a>
         .
       </P>
       <div sx={{ mt: "2em" }}>
