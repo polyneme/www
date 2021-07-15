@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Container } from "theme-ui"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -41,6 +42,9 @@ const ServicesPage = () => (
             Trained and empowered staff, collaborators, and user communities.
           </Li>
         </ul>
+        <Link to="/publications" sx={{ color: "text", ml: "1em" }}>
+          Publications
+        </Link>
       </div>
 
       <BookConsultation />
