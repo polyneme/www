@@ -31,7 +31,7 @@ const IndexPage = () => (
         textAlign: "center",
       }}
     >
-      Trouble with scientific data collaboration?
+      Trouble with data collaboration?
     </Heading>
     <Box
       sx={{
