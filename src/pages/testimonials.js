@@ -20,7 +20,7 @@ const TestimonialsPage = () => (
         <br />—{" "}
         <em>
           Kristin Persson, Director @{" "}
-          <a sx={{ color: "text" }} href="https://materiaslsproject.org">
+          <a sx={{ color: "text" }} href="https://materialsproject.org/">
             Materials Project
           </a>
         </em>
