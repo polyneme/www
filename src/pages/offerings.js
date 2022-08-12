@@ -42,7 +42,7 @@ const CenteredHeading = ({ children }) => (
 
 const OfferingsPage = () => (
   <Layout>
-    <SEO title="Services" />
+    <SEO title="Offerings" />
     <Container sx={{ display: "grid", justifyItems: "center", rowGap: "2em" }}>
       <div>
         <QBox>
