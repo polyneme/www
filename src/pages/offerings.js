@@ -46,8 +46,7 @@ const OfferingsPage = () => (
     <Container sx={{ display: "grid", justifyItems: "center", rowGap: "2em" }}>
       <div>
         <QBox>
-          Do you dread having to “make your data FAIR” when publishing research
-          results?
+          Do you dread having to “make it FAIR” when publishing research data?
         </QBox>
         <QBox>
           What if your research was continuously and ubiquitously FAIR?
@@ -56,7 +55,8 @@ const OfferingsPage = () => (
           <em>For you — after all, FAIR doesn’t mean Open.</em>
         </QBox>
         <QBox>
-          What if every output in your research lifecycle was
+          What if all digital objects in your research lifecycle — analyses,
+          data, documentation, metadata, models, workflows — were
           publication-quality?
         </QBox>
         <QBox>
