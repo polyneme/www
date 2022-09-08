@@ -11,11 +11,17 @@ export default props => (
       flexDirection: "column",
       minHeight: "100vh",
       variant: "layout.root",
+      maxWidth: "40em",
+      margin: "0 auto",
+      lineHeight: "2",
+      fontSize: "1.1em",
+      fontFamily: '"Merriweather", serif',
     }}
   >
     <header
       sx={{
-        width: "100%",
+        maxWidth: "40em",
+        margin: "0 auto",
         variant: "layout.header",
       }}
     >
@@ -25,7 +31,8 @@ export default props => (
     </header>
     <main
       sx={{
-        width: "100%",
+        maxWidth: "40em",
+        margin: "0 auto",
         flex: "1 1 auto",
         variant: "layout.main",
       }}
@@ -34,7 +41,8 @@ export default props => (
     </main>
     <footer
       sx={{
-        width: "100%",
+        maxWidth: "40em",
+        margin: "0 auto",
         variant: "layout.footer",
       }}
     >

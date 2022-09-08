@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import { Heading, Box, Grid } from "theme-ui"
+import { Heading, Box, Grid, jsx } from "theme-ui"
 import SEO from "../components/seo"
 
 import BookConsultation from "../components/book"
@@ -9,9 +9,7 @@ import BookConsultation from "../components/book"
 const QBox = ({ children }) => (
   <Box
     sx={{
-      maxWidth: "65%",
-      mx: "auto",
-      bg: "muted",
+      //bg: "muted",
       padding: "10px",
       borderRadius: "10px",
     }}
@@ -25,9 +23,6 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Heading
       sx={{
-        maxWidth: "512px",
-        width: "90%",
-        mx: "auto",
         textAlign: "center",
       }}
     >
@@ -36,8 +31,6 @@ const IndexPage = () => (
     <Box
       sx={{
         py: 4,
-        mx: "auto",
-        maxWidth: "512px",
         textAlign: "center",
       }}
     >
@@ -103,3 +96,13 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const Head = () => (
+  <>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Oswald:400|Merriweather:400,700"
+    />
+  </>
+)
