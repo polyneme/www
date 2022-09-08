@@ -63,8 +63,7 @@ const OfferingsPage = () => (
           <em>Because you’d always be publishing, just not always openly.</em>
         </QBox>
         <QBox>
-          I help small research labs design continuous and ubiquitous FAIR data
-          infrastructure.
+         I help small research labs design continuous and ubiquitous FAIR data infrastructure by holistically decomposing the data lifecycle so that impediments to machine-actionability are isolated and made soluble.
         </QBox>
 
         <p sx={{ my: "2em" }}></p>
