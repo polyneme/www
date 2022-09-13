@@ -15,9 +15,7 @@ const Li = ({ children }) => <li sx={{ px: "40px", my: "2em" }}>{children}</li>
 const QBox = ({ children }) => (
   <Box
     sx={{
-      maxWidth: "65%",
       mx: "auto",
-      bg: "muted",
       padding: "10px",
       borderRadius: "10px",
     }}
@@ -29,8 +27,6 @@ const QBox = ({ children }) => (
 const CenteredHeading = ({ children }) => (
   <Heading
     sx={{
-      maxWidth: "512px",
-      width: "90%",
       mx: "auto",
       textAlign: "center",
       fontSize: "1.1em",
