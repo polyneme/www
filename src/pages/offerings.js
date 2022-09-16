@@ -15,9 +15,6 @@ const Li = ({ children }) => <li sx={{ px: "40px", my: "2em" }}>{children}</li>
 const QBox = ({ children }) => (
   <Box
     sx={{
-      maxWidth: "65%",
-      mx: "auto",
-      bg: "muted",
       padding: "10px",
       borderRadius: "10px",
     }}
@@ -29,11 +26,10 @@ const QBox = ({ children }) => (
 const CenteredHeading = ({ children }) => (
   <Heading
     sx={{
-      maxWidth: "512px",
-      width: "90%",
-      mx: "auto",
       textAlign: "center",
       fontSize: "1.1em",
+      mt: 6,
+      mb: 2,
     }}
   >
     {children}
@@ -43,8 +39,10 @@ const CenteredHeading = ({ children }) => (
 const OfferingsPage = () => (
   <Layout>
     <SEO title="Offerings" />
-    <Container sx={{ display: "grid", justifyItems: "center", rowGap: "2em" }}>
-      <div>
+    <Container
+      sx={{ display: "grid", justifyItems: "center", rowGap: "4em", mb: 6 }}
+    >
+      <div sx={{ mb: 2 }}>
         <QBox>
           Do you dread having to “make it FAIR” when publishing research data?
         </QBox>
@@ -63,7 +61,9 @@ const OfferingsPage = () => (
           <em>Because you’d always be publishing, just not always openly.</em>
         </QBox>
         <QBox>
-         I help small research labs design continuous and ubiquitous FAIR data infrastructure by holistically decomposing the data lifecycle so that impediments to machine-actionability are isolated and made soluble.
+          I help small research labs design continuous and ubiquitous FAIR data
+          infrastructure by holistically decomposing the data lifecycle so that
+          impediments to machine-actionability are isolated and made soluble.
         </QBox>
 
         <p sx={{ my: "2em" }}></p>
