@@ -48,6 +48,12 @@ if __name__ == "__main__":
         local_name = doc["@id"].split("/")[-1]
         with open(local_name, "w") as file_out:
             doc |= {"@context": store["@context"]}
+            doc_as_str = json.dumps(doc, indent=2)
+            doc_as_html = re.sub(
+                r'"(https?://[^\"]+)"',
+                r'<a href="\1">\1</a>',
+                doc_as_str,
+            )
             body = f"""\
 <!doctype html>
 <html lang="en">
@@ -55,17 +61,16 @@ if __name__ == "__main__":
 <title>{doc["skos:prefLabel"]}</title>
 <meta charset="UTF-8">
 <script type="application/ld+json">
-{json.dumps(doc, indent=2)}
+{doc_as_str}
 </script>
 </head>
 <body>
 <pre>
-{json.dumps(doc, indent=2)}
+{doc_as_html}
 </pre>
 </body>
 </html>
             """
-            body = re.sub(r'"(https?://[^\"]+)"', r'<a href="\1">\1</a>', body)
             file_out.write(body)
 
 

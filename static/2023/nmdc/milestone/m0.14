@@ -5,10 +5,10 @@
 <meta charset="UTF-8">
 <script type="application/ld+json">
 {
-  "@id": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/m0.14">https://www.polyneme.xyz/2023/nmdc/milestone/m0.14</a>,
+  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/m0.14",
   "skos:prefLabel": "Establish a change management process to ensure stability and reliability of changes in production systems in collaboration with with QA/QC lead",
-  "skos:broader": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/omg">https://www.polyneme.xyz/2023/nmdc/milestone/omg</a>,
-  "@context": <a href="http://www.w3.org/2013/json-ld-context/rdfa11">http://www.w3.org/2013/json-ld-context/rdfa11</a>
+  "skos:broader": "https://www.polyneme.xyz/2023/nmdc/milestone/omg",
+  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11"
 }
 </script>
 </head>

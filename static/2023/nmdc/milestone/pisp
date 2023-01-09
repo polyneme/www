@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <script type="application/ld+json">
 {
-  "@id": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/pisp">https://www.polyneme.xyz/2023/nmdc/milestone/pisp</a>,
+  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/pisp",
   "skos:prefLabel": "Product Initiative: Submission Portal",
-  "@context": <a href="http://www.w3.org/2013/json-ld-context/rdfa11">http://www.w3.org/2013/json-ld-context/rdfa11</a>
+  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11"
 }
 </script>
 </head>
