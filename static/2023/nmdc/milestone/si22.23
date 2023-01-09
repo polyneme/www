@@ -1,0 +1,5 @@
+{
+  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
+  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/si22.23",
+  "skos:prefLabel": "Work with stakeholders to define metrics for when to use new databases to reprocess data"
+}

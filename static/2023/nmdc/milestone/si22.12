@@ -1,0 +1,5 @@
+{
+  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
+  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/si22.12",
+  "skos:prefLabel": "Updated metagenome annotation workflow with support for GO annotations"
+}

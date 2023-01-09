@@ -1,0 +1,5 @@
+{
+  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
+  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/si22.19",
+  "skos:prefLabel": "Evaluation of GeNomad codebase and database, and encoding into WDL"
+}

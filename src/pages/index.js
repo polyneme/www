@@ -104,5 +104,6 @@ export const Head = () => (
       type="text/css"
       href="//fonts.googleapis.com/css?family=Oswald:400|Merriweather:400,700"
     />
+    <link rel="me" href="https://fairpoints.social/@donny" />
   </>
 )

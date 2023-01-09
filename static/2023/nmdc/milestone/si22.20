@@ -1,0 +1,5 @@
+{
+  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
+  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/si22.20",
+  "skos:prefLabel": "Define the outline and deliverables of a partnership with ICTV for implementing viral taxonomy into a robust, reproducible, and machine-readable framework, Year 2, Q2"
+}

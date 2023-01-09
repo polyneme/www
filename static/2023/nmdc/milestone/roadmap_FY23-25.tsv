@@ -1,0 +1,94 @@
+													
+		FY 2023				FY 2024				FY 2025			
+NMDC GitHub Roadmap		Q1	Q2	Q3	Q4	Q1	Q2	Q3	Q4	Q1	Q2	Q3	Q4
+Organization, Management & Governance													
+0.1	Update RACI with new staff and roles, and evaluate quarterly to keep updated.	X											
+0.2	Establish new Advisory Board with refreshed charge & scope, along with engagement schedule. 	X											
+0.3	Develop scope, purview, and membership of the Interagency Executive Committee (IEC) to support coordination efforts and activities to foster community building across agencies, initiatives, and programs		X										
+0.4	Governance policy for workflow updates and databases in partnership with User Facilities	X											
+0.5	Develop governance model for interactions with SeqCode Initiative		X										
+0.6	Develop governance model for interactions with ICTV & virus research community			X									
+0.7	Develop governance policy for interactions and development activities with KBase	X											
+0.8	Develop governance policy for interactions and development activities with ESS-DIVE	X											
+0.9	Revise engagement strategy and develop implementation plan for updated engagement activities, target groups, and metrics to align with strategic intents and product initiatives		X										
+0.10	Develop a stakeholder landscape analysis and engagement strategy to mainstream NMDC’s products into the multi-omic microbiome research environment	X											
+0.11	Develop a framework to streamline the usability testing activities for all three NMDC products			X									
+0.12	Develop a process that includes discovery-based user research methods in addressing key research questions related to NMDC products			X									
+0.13	Requirements process established and communicated across the NMDC team. Process will continue to evolve and improve with more feedback and experiences from the team.	X											
+0.14	Policy & process for code review, demonstrations, and share work in progress to get feedback from the team and users/researchers.	X											
+0.15	Ensure the infrastructure and tech leads have a regular schedule/cadence for code reviews and alignment with overall program goals, such as automation			X									
+0.14	Establish a change management process to ensure stability and reliability of changes in production systems in collaboration with with QA/QC lead				X								
+0.15	Evaluate and adopt an Agile framework appropriate for large, distributed teams			X									
+0.16	Develop monitoring and evaluation (M&E) system to track metrics across the NMDC		X										
+0.17	Continuous FAIRness evaluation acros the NMDC		X				X				X		
+													
+Strategic Intent 1: Implement efficiencies to scale leveraging data from DOE User Facilities													
+1.1	Integrate the NMDC Submission Portal into User Facility processes					X							
+1.2	Co-develop APIs with the User Facilities in order to access their data and metadata		X										
+1.3	Automate ingest of processed data and metadata from the User Facilities			X									
+1.4	Implement a dashboard of summary information in the Submission Portal, including embargo checks 								X				
+1.5	Establish data sharing process with IMG/M to support NMDC workfow outputs and associated links		X										
+1.6	Deploy support for automated data staging (non-JGI/EMSL data)									X			
+1.7	Trigger automated workflow execution from orchestration services	X	X										
+1.8	Deploy a mechansim for automated ingest of metadata into the NMDC Data Portal		X	X									
+1.9	Connect computing sites to the core NMDC Orchestration Services						X						
+1.10	Automated backups of production NMDC data 			X									
+1.11	Support for submission of data and metadata from NMDC to international repositories (e.g. NCBI)					X							
+1.12	Scale current search to support eight orders of magnitude more elements (e.g. functional terms)									X			
+1.13	Ingest twice as many elements into Data Portal storage in less than 24 hours			X	X								
+1.14	Enable high bandwidth transfer mechanisms for NMDC data					X							
+1.15	Deploy CI/CD for automated workflow testing and development	X	X										
+Strategic Intent 2: Enable environmental microbiome science with accessible & interoperable data													
+2.1	Support flexible approach to study-sample relationships for long-term data collection			X									
+2.2	Ongoing support for new MIxS releases (v7, v8, v9)	X				X				X			
+2.3	Develop engagement strategy to support metabolomics and metaproteomics standards				X								
+2.4	Enhanced support for metabolomics or metaproteomics standards and controlled vocabulary					X	X	X	X				
+2.5	Addition of new data types to schema, e.g. imaging and spectroscopy data									X			
+2.6	Recruit and train a cohort of Ambassadors	X				X				X			
+2.7	Analyze feedback from Ambassadors program activities for suggested improvements to NMDC products and activities, and summary of changes in perceptions toward data standards				X				X				X
+2.8	Revise internal playbook, external handbook, template materials, and program procedures	X			X				X				X
+2.9	Harmonizing environmental science standards support linking of climate data			X	X			X	X			X	X
+2.10	Catalog of environmental processes and climate-relevant microbiome functions						X						
+2.11	Develop engagement strategy to support climate-microbe priorities and community needs					X							
+2.12	Updated metagenome annotation workflow with support for GO annotations	X	X	X	X								
+2.13	Assembly support for long-read sequence data			X	X	X	X						
+2.14	Metaproteomics workflow updated to remove matched metagenome requirement	X	X	X	X	X	X						
+2.15	Combine data sets from a study for metaproteomics relative quantification							X	X	X	X	X	X
+2.16	Enhanced NOM workflow			X	X	X	X						
+2.17	Lipidomics workflow	X	X	X	X								
+2.18	Parameterized reference selection for NOM and metabolomics							X	X	X	X	X	X
+2.19	Evaluation of GeNomad codebase and database, and encoding into WDL	X	X	X									
+2.20	Define the outline and deliverables of a partnership with ICTV for implementing viral taxonomy into a robust, reproducible, and machine-readable framework, Year 2, Q2	X	X	X	X								
+2.21	Integration plan for SeqCode taxonomy in reference database			X	X	X	X						
+2.22	Determine feasibility of sharing MAG data with SeqCode for novel taxonomy nomenclature additions					X	X	X	X				
+2.23	Work with stakeholders to define metrics for when to use new databases to reprocess data	X	X	X	X	X	X	X	X	X	X	X	X
+2.24	Develop a new educational framework, designed to be modular and accessible in a variety of formats	X				X				X			
+2.25	Partner with the MCC to develop a Microbiome Data Science certificate program										X		
+2.26	Sample Jupyter and RStudio notebooks available that highlight NMDC data and metadata				X				X				X
+													
+Product Initiative: Submission Portal													
+3.1	Allow communities to create their own metadata template profiles				X	X			X	X			
+3.2	Define EnvO value sets for supported environmental packages 					X	X	X	X				
+3.3	Integrate metadata enrichment into sample interface						X	X	X				
+3.4	Deploy a QC dashboard with user input	X	X	X	X	X							
+3.5	Data harmonizer enhancements				X				X				X
+													
+Product Initiative: Data Portal & Public API													
+4.1	Perform user research to refine the Data Portal user experience	X	X	X	X	X	X	X	X	X	X	X	X
+4.2	Support for new data types								X	X	X		
+4.3	Integration of Linked Data component for microbiome-climate semantic framework										X		
+4.4	Semantic exploration layer of climate-microbe associations built into Portal visualizations												X
+4.5	Add visualizations that combine multi-omics data for analysis							X	X	X			
+4.6	Add summary statistics that allow users to discern data and metadata quality												X
+4.7	Deploy an MVP for the public API to support programmatic access	X					X				X		
+4.8	Add support for all queries available in the data portal available via the public API				X		X						X
+4.9	Perform user research to refine public API capabilities		X			X		X				X	
+4.10	Deploy a fully functional public API to support programmatic data access and exploration								X				X
+4.11	Expanded functional search capabilities				X								
+													
+Product Initiative: NMDC EDGE													
+5.1	User testing to prioritize workflows & data types	X	X										
+5.2	Support connections between the Submission Portal and NMDC EDGE					X	X	X	X	X	X	X	X
+5.3	Enable workflow products and workflow metadata registration from NMDC EDGE to NMDC Data Portal			X	X	X	X	X	X	X	X	X	X
+5.4	Include updated and new multi-omics workflows to be available in NMDC EDGE	X	X	X	X	X	X	X	X	X	X	X	X
+5.5	Develop/Update documenation and training materials		X		X		X		X		X		X
