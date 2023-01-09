@@ -1,5 +1,0 @@
-{
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/pidp4.10",
-  "skos:prefLabel": "Deploy a fully functional public API to support programmatic data access and exploration"
-}

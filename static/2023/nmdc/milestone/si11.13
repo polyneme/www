@@ -1,5 +1,0 @@
-{
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/si11.13",
-  "skos:prefLabel": "Ingest twice as many elements into Data Portal storage in less than 24 hours"
-}

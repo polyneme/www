@@ -1,5 +1,0 @@
-{
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/omg0.12",
-  "skos:prefLabel": "Develop a process that includes discovery-based user research methods in addressing key research questions related to NMDC products"
-}

@@ -1,5 +1,0 @@
-{
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11",
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/omg0.14",
-  "skos:prefLabel": "Establish a change management process to ensure stability and reliability of changes in production systems in collaboration with with QA/QC lead"
-}
