@@ -5,18 +5,18 @@
 <meta charset="UTF-8">
 <script type="application/ld+json">
 {
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/pisp",
+  "@id": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/pisp">https://www.polyneme.xyz/2023/nmdc/milestone/pisp</a>,
   "skos:prefLabel": "Product Initiative: Submission Portal",
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11"
+  "@context": <a href="http://www.w3.org/2013/json-ld-context/rdfa11">http://www.w3.org/2013/json-ld-context/rdfa11</a>
 }
 </script>
 </head>
 <body>
 <pre>
 {
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/pisp",
+  "@id": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/pisp">https://www.polyneme.xyz/2023/nmdc/milestone/pisp</a>,
   "skos:prefLabel": "Product Initiative: Submission Portal",
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11"
+  "@context": <a href="http://www.w3.org/2013/json-ld-context/rdfa11">http://www.w3.org/2013/json-ld-context/rdfa11</a>
 }
 </pre>
 </body>

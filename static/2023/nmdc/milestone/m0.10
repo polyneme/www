@@ -5,20 +5,20 @@
 <meta charset="UTF-8">
 <script type="application/ld+json">
 {
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/m0.10",
+  "@id": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/m0.10">https://www.polyneme.xyz/2023/nmdc/milestone/m0.10</a>,
   "skos:prefLabel": "Develop a stakeholder landscape analysis and engagement strategy to mainstream NMDC\u2019s products into the multi-omic microbiome research environment",
-  "skos:broader": "https://www.polyneme.xyz/2023/nmdc/milestone/omg",
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11"
+  "skos:broader": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/omg">https://www.polyneme.xyz/2023/nmdc/milestone/omg</a>,
+  "@context": <a href="http://www.w3.org/2013/json-ld-context/rdfa11">http://www.w3.org/2013/json-ld-context/rdfa11</a>
 }
 </script>
 </head>
 <body>
 <pre>
 {
-  "@id": "https://www.polyneme.xyz/2023/nmdc/milestone/m0.10",
+  "@id": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/m0.10">https://www.polyneme.xyz/2023/nmdc/milestone/m0.10</a>,
   "skos:prefLabel": "Develop a stakeholder landscape analysis and engagement strategy to mainstream NMDC\u2019s products into the multi-omic microbiome research environment",
-  "skos:broader": "https://www.polyneme.xyz/2023/nmdc/milestone/omg",
-  "@context": "http://www.w3.org/2013/json-ld-context/rdfa11"
+  "skos:broader": <a href="https://www.polyneme.xyz/2023/nmdc/milestone/omg">https://www.polyneme.xyz/2023/nmdc/milestone/omg</a>,
+  "@context": <a href="http://www.w3.org/2013/json-ld-context/rdfa11">http://www.w3.org/2013/json-ld-context/rdfa11</a>
 }
 </pre>
 </body>

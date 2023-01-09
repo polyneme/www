@@ -46,7 +46,7 @@ if __name__ == "__main__":
 
     for doc in store["@graph"]:
         local_name = doc["@id"].split("/")[-1]
-        with open(local_name + '.html', "w") as file_out:
+        with open(local_name, "w") as file_out:
             doc |= {"@context": store["@context"]}
             body = f"""\
 <!doctype html>
